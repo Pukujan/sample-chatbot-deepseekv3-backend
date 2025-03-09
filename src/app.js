@@ -5,9 +5,6 @@ const dotenv = require("dotenv");
 const serviceAccount = require("../firebase-admin-key.json");
 const authRoutes = require("./routes/authRoutes");
 
-const admin = require("firebase-admin");
-const serviceAccount = require("../firebase-admin-key.json");
-
 
 
 // Load environment variables
